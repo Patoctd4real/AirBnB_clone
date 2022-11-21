@@ -90,6 +90,6 @@ $ python3 unittest -m tests/test_console.py
 
 
 ## Authors :
-PATRICK CHRISTOPHER patochristopher@yahoo.com>
-peter Ughasi Vmailvp@gmail.com>
+[PATRICK CHRISTOPHER](patochristopher@yahoo.com)
+(PETER UGHASI](Vmailvp@gmail.com)
 
