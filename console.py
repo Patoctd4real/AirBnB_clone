@@ -23,7 +23,7 @@ classes = storage.models
 class HBNBCommand(Cmd):
     """
     The Console based driver of the AirBnb Clone
-    All interactions with the system is done via
+    All interactions with the system is done through
     this class"""
 
     prompt = "(hbnb) "
