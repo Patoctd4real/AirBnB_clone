@@ -1,13 +1,14 @@
 #!/usr/bin/python3
-"""Defines the Amenity class."""
+
+"""This file defines the Amenity Model
+It inherits from the BaseModel
+"""
+
 from models.base_model import BaseModel
 
 
 class Amenity(BaseModel):
-    """Represent an amenity.
+    """The Amenity Model"""
 
-    Attributes:
-        name (str): The name of the amenity.
-    """
-
-    name = ""
+    # Attributes
+    name: str = ""
