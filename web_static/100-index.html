@@ -2,72 +2,72 @@
 <html lang="en">
 
 <head>
+      <meta charset="utf-8">
       <link rel="stylesheet" href="styles/4-common.css" type="text/css">
       <link rel="stylesheet" href="styles/3-footer.css" type="text/css">
       <link rel="stylesheet" href="styles/3-header.css" type="text/css">
       <link rel="stylesheet" href="styles/6-filters.css" type="text/css">
       <link rel="stylesheet" href="styles/100-places.css" type="text/css">
-      <title>AirBnB clone</title>
       <link rel="tab icon" href="images/icon.png" type="image/png">
+      <title>AirBnB clone</title>
 </head>
-
 <body>
       <header>
             <div class="logo"></div>
       </header>
       <div class="container">
             <section class="filters">
+                  <button>Search</button>
                   <div class="locations">
                         <h3>States</h3>
-                        <h4>Kenya, Niger</h4>
+                        <h4>California, Arizona...</h4>
                         <ul class="popover">
                               <li>
-                                    <h2>Nairobi</h2>
-                                    <p>One</p>
-                                    <p>Two</p>
+                                    <ul>
+                                          <li><h2>California</h2></li>
+                                          <li>San Francisco</li>
+                                          <li>Los Angeles</li>
+                                    </ul>
                               </li>
                               <li>
-                                    <h2>Mombasa</h2>
-                                    <p>One</p>
-                                    <p>two</p>
-                              </li>
-                              <li>
-                                    <h2>Naks</h2>
-                                    <p>One</p>
-                                    <p>Two</p>
+                                    <ul>
+                                          <li><h2>Arizona</h2></li>
+                                          <li>Phoenix</li>
+                                          <li>Grand Canyon</li>
+                                    </ul>
                               </li>
                         </ul>
                   </div>
                   <div class="amenities">
                         <h3>Amenities</h3>
-                        <h4>Wifi, Pets</h4>
+                        <h4>Internet, Kitchen...</h4>
                         <ul class="popover">
-                              <li>
-                                    <p>Internet</p>
-                                    <p>TV</p>
-                                    <p>Kitchen</p>
-                              </li>
+                              <li>Internet</li>
+                              <li>TV</li>
+                              <li>Iron</li>
+                              <li>Kitchen</li>
                         </ul>
                   </div>
-                  <button>Search</button>
             </section>
             <section class="places">
                   <h1>Places</h1>
 
                   <article>
                         <h2>My home</h2>
-                        <div class="price_by_night">$10</div>
+                        <div class="price_by_night">$80</div>
                         <div class="information">
                               <div class="max_guest">2 Guests</div>
                               <div class="number_rooms">1 Bedroom</div>
                               <div class="number_bathrooms">1 Bathroom</div>
                         </div>
-                        <div class="user"><b>Owner</b>: Ovec Joe</div>
+                        <div class="user"><b>Owner</b>: John Lennon</div>
                         <div class="description">
+                              <p>
                               This is a lovely 1 bedroom and 1 bathroom apartment that
-                              can accommodate 2 people. It locates at the center of
-                              Kaduna 1,1 stop to People
-                              Square, 2 stops to Bund, 3 stops to Michigan Tower
+                              can accommodates 2 people. It locates at the center of
+                              Shanghai and next to subway line 1. 1 stop to People
+                              Square, 2 stops to Bund, 3 stops to Jingan Temple.
+                              </p>
                         </div>
                         <div class="amenities">
                               <h2><b>Amenities</b></h2>
@@ -78,7 +78,7 @@
                                     <li class="Wifi">
                                           <p>Wifi</p>
                                     </li>
-                                    <li class="Peta">
+                                    <li class="Pets">
                                           <p>Pet friendly</p>
                                     </li>
                               </ul>
@@ -87,32 +87,35 @@
                               <h2><b>2 Reviews</b></h2>
                               <ul>
                                     <li>
-                                          <h3>From Two Three the 27th January 2022</h3>
-                                          <p>It's a great place for vacationing</p>
+                                          <h3>From Bob Dylan the 27th January 2022</h3>
+                                          <p>Runshi is an epic host, nothing more I can say. 5 star</p>
                                     </li>
                                     <li>
-                                          <h3>From Two Three the 27th January 2022</h3>
-                                          <p>Perfect for a honey moon</p>
+                                          <h3>From Corner the 4th January 2022</h3>
+                                          <p>Highly recommended!</p>
                                     </li>
                               </ul>
                         </div>
                   </article>
-
                   <article>
                         <h2>Tiny house</h2>
-                        <div class="price_by_night">Free</div>
+                        <div class="price_by_night">$65</div>
                         <div class="information">
                               <div class="max_guest">4 Guests</div>
                               <div class="number_rooms">2 Bedrooms</div>
                               <div class="number_bathrooms">1 Bathroom</div>
                         </div>
-                        <div class="user"><b>Owner</b>: Joe One</div>
+                        <div class="user"><b>Owner</b>: Adrienne</div>
                         <div class="description">
-                              This is the personal residence of Bruce Wayne, who is also the superhero Batman. The
-                              residence is
-                              depicted as a large mansion on the outskirts of Gotham City and is maintained by the Wayne
-                              family's
-                              butler, Joe Ohachor.
+                              <p>
+                              Our place is a private, affordable stand-alone quests house
+                              centrally located just minutes to French Quarters, downtown,
+                              the Fair Grounds (Jazz Fest) and City Park. The quest house is
+                              a quaint, 400 square ft. with a full bath, mini kitchen & living
+                              room. The sofa converts to a bed also. We have a hand made
+                              counter area that adds character to the room and a great
+                              prch/deck to relax on and have a glass of Marlot.
+                              </p>
                         </div>
                         <div class="amenities">
                               <h2><b>Amenities</b></h2>
@@ -126,20 +129,21 @@
                               </ul>
                         </div>
                         <div class="reviews">
-                              <h2><b>2 Reviews</b></h2>
+                              <h2><b>1 Reviews</b></h2>
                               <ul>
                                     <li>
-                                          <h3>From Two Three the 27th January 2022</h3>
-                                          <p>It's a great place for vacationing</p>
-                                    </li>
-                                    <li>
-                                          <h3>From Two Three the 27th January 2022</h3>
-                                          <p>Perfect for a honey moon</p>
+                                          <h3>From Max the 27th January 2022</h3>
+                                          <p>Fantastic place. it was clean, everthing went super
+                                                smooth. Location is also great if you like running
+                                                and it is also a bit more quiet which is a plus.
+                                                I would suggest a car(Uber) to take into
+                                                consideration when moving into the city.
+                                                Overall, i would recommend the place anytime.
+                                          </p>
                                     </li>
                               </ul>
                         </div>
                   </article>
-
                   <article>
                         <h2>A suite</h2>
                         <div class="price_by_night">$180</div>
@@ -164,7 +168,7 @@
                                     <li class="Wifi">
                                           <p>Wifi</p>
                                     </li>
-                                    <li class="Peta">
+                                    <li class="Pets">
                                           <p>Pet friendly</p>
                                     </li>
                               </ul>
@@ -173,20 +177,18 @@
                               <h2><b>2 Reviews</b></h2>
                               <ul>
                                     <li>
-                                          <h3>From Two Three the 27th January 2022</h3>
-                                          <p>It's a great place for vacationing</p>
+                                          <h3>From Mac Bill the 5th July 2022</h3>
+                                          <p>It's a great place for vacation</p>
                                     </li>
                                     <li>
-                                          <h3>From Two Three the 27th January 2022</h3>
-                                          <p>Perfect for a honey moon</p>
+                                          <h3>From Angel Dave the 1st August 2022</h3>
+                                          <p>A perfect for a honey moon</p>
                                     </li>
                               </ul>
                         </div>
                   </article>
-
             </section>
       </div>
       <footer>Best School</footer>
 </body>
-
 </html>
